@@ -22,7 +22,7 @@ By participating in this project, you agree to abide by our Code of Conduct. Ple
 1. **Fork the repository** on GitHub
 2. **Clone your fork** to your local machine:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/FireTrackPH.git
+   git clone https://github.com/IlocosScript/FireTrackPH.git
    cd FireTrackPH
    ```
 3. **Set up the upstream remote**:
