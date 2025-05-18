@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../FireTrackPH.Application/FireTrackPH.Application.csproj" />
+  </ItemGroup>
+
 </Project>
