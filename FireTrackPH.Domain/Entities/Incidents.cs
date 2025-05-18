@@ -5,18 +5,16 @@ namespace FireTrackPH.Domain.Entities;
 
 public abstract class Incident
 {
-    public string Id { get; set; } = default!;
+    public int Id { get; set; } 
     public string PhotoURL { get; set; } = default!;
-    public int Severity { get; set; } // 1-3 (low to high)
+    public int Severity { get; set; }
     public string Description { get; set; } = default!;
-    public IncidentType Type { get; set; }  
-    public int LocationId{ get; set; }
-    public Location Location { get; set; }
+    public IncidentType Type { get; set; }
+
     public IncidentStatus Status { get; set; }
-    public string ReportedBy { get; set; } = default!; // User ID
+    public string ReportedBy { get; set; } = default!;
     public DateTime ReportedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
-
-    //Timestamp on Record Createion Auto.
-    public DateTime CreatedAt{ get; set; }
+    public DateTime CreatedAt { get; set; }
 }
+

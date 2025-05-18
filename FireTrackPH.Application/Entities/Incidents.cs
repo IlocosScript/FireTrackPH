@@ -5,6 +5,6 @@ namespace FireTrackPH.Application.Entities;
 
 public class AppIncident : Incident
 {
-
+    public AppLocation Location { get; set; } = default!;
 
 }
